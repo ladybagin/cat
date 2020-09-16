@@ -1,0 +1,64 @@
+#cards {
+margin: 50px auto;
+width: 728px;
+height: 533px;
+/* border: 2px solid black; */
+display: flex;
+/* flex-direction: row; */
+}
+#box1 {
+    width: 502px;
+    height: 533px;
+    /* border: 2px solid black;   */
+}
+#box2 {
+    width: 226px;
+    height: 533px;
+    padding-left: 15px;
+    /* border: 2px solid black;   */
+}
+#x1 {
+    width: 502px;
+    height: 93px;
+    /* border: 2px solid black;  */
+}
+#x2 {
+    width: 502px;
+    height: 373px;
+    /* border: 2px solid black;  */
+}
+#x3 {
+    width: 502px;
+    height:67px;
+    padding-top: 10px;
+    /* border: 2px solid black;  */
+}
+
+#a1 {
+    width: 226px;
+    height: 217px;
+    /* border: 2px solid black;  */
+}
+#a2 {
+    width: 226px;
+    height: 285px;
+    /* border: 2px solid black;  */
+    padding: 10px;
+}
+
+#id1 {
+    font-size: 19pt;
+    color: dimgray;
+    padding: 10px;
+}
+#id2 {
+    padding: 10px;
+}
+
+#d1, #d2 {
+    padding: 10px;
+    font-size: 12pt;
+}
+#d1 {
+    color: dimgray;
+}
