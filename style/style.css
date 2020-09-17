@@ -2,47 +2,72 @@
 margin: 50px auto;
 width: 728px;
 height: 533px;
-/* border: 2px solid black; */
 display: flex;
-/* flex-direction: row; */
 }
 #box1 {
     width: 502px;
     height: 533px;
-    /* border: 2px solid black;   */
 }
 #box2 {
     width: 226px;
     height: 533px;
     padding-left: 15px;
-    /* border: 2px solid black;   */
 }
 #x1 {
     width: 502px;
     height: 93px;
-    /* border: 2px solid black;  */
 }
 #x2 {
     width: 502px;
     height: 373px;
-    /* border: 2px solid black;  */
 }
 #x3 {
     width: 502px;
     height:67px;
     padding-top: 10px;
-    /* border: 2px solid black;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    width: 300px;
+    background:royalblue;
+    height: 26px;
+    color:white;
+    font-size: 13pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.button1 {
+    width: 170px;
+    background: white;
+    border: 2px solid dimgrey;
+    height: 35px;
+    color: dimgray;
+    font-size: 13pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 #a1 {
     width: 226px;
     height: 217px;
-    /* border: 2px solid black;  */
+  
 }
 #a2 {
     width: 226px;
     height: 285px;
-    /* border: 2px solid black;  */
     padding: 10px;
 }
 
@@ -62,3 +87,4 @@ display: flex;
 #d1 {
     color: dimgray;
 }
+
